@@ -20,6 +20,7 @@ public class NewTest
 		System.setProperty("webdriver.chrome.driver",path+"\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("Project upload on git");
+		System.out.println("Success");
 	}
 	@AfterClass
 	public void afterClass()
